@@ -1,5 +1,6 @@
 #!/bin/bash
 echo Enter the commit message: shell i/o
+i/o
 read CommitMessage 
 git add .
 git commit -m "$CommitMessage"
